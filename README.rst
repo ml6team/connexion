@@ -1,16 +1,16 @@
 Connexion
 =========
 
-.. image:: https://badges.gitter.im/zalando/connexion.svg
-   :alt: Join the chat at https://gitter.im/zalando/connexion
-   :target: https://gitter.im/zalando/connexion?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+.. image:: https://github.com/ml6team/connexion/actions/workflows/pipeline.yml/badge.svg
+   :alt: Build status
+   :target: https://github.com/ml6team/connexion/actions/workflows/pipeline.yml
 
 .. image:: https://travis-ci.org/zalando/connexion.svg?branch=master
    :target: https://travis-ci.org/zalando/connexion
    :alt: Travis CI build status
 
 .. image:: https://coveralls.io/repos/zalando/connexion/badge.svg?branch=master
-   :target: https://coveralls.io/r/zalando/connexion?branch=master
+   :target: https://coveralls.io/r/ml6team/connexion?branch=master
    :alt: Coveralls status
 
 .. image:: https://img.shields.io/pypi/v/connexion.svg
@@ -26,7 +26,7 @@ Connexion
    :alt: Python Versions
 
 .. image:: https://img.shields.io/pypi/l/connexion.svg
-   :target: https://github.com/zalando/connexion/blob/master/LICENSE
+   :target: https://github.com/ml6team/connexion/blob/master/LICENSE
    :alt: License
 
 Connexion is a framework that automagically handles HTTP requests based on `OpenAPI Specification`_
