@@ -97,7 +97,7 @@ class ResponseValidator(BaseDecorator):
             from .coroutine_wrappers import get_response_validator_wrapper
             wrapper = get_response_validator_wrapper(function, _wrapper)
 
-        else:  # pragma: 3 no cover
+        else:  # pragma: no cover
             @functools.wraps(function)
             def wrapper(request):
                 response = function(request)
