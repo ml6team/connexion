@@ -587,6 +587,9 @@ Thanks
 We'd like to thank all of Connexion's contributors for working on this
 project, and to Swagger/OpenAPI for their support.
 
+Special thanks to @jmcs, @hjacobs, @rafaelcaricio, @dtkav for their role in
+maintaining Connexion throughout its lifetime.
+
 License
 ===================
 
