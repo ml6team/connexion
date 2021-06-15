@@ -41,7 +41,7 @@ class RequestResponseDecorator(BaseDecorator):
             from .coroutine_wrappers import get_request_life_cycle_wrapper
             wrapper = get_request_life_cycle_wrapper(function, self.api, self.mimetype)
 
-        else:  # pragma: 3 no cover
+        else:  # pragma: no cover
             @functools.wraps(function)
             def wrapper(*args, **kwargs):
                 request = self.api.get_request(*args, **kwargs)
