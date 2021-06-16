@@ -5,10 +5,6 @@ Connexion
    :alt: Build status
    :target: https://github.com/ml6team/connexion/actions/workflows/pipeline.yml
 
-.. image:: https://travis-ci.org/zalando/connexion.svg?branch=master
-   :target: https://travis-ci.org/zalando/connexion
-   :alt: Travis CI build status
-
 .. image:: https://coveralls.io/repos/zalando/connexion/badge.svg?branch=master
    :target: https://coveralls.io/r/ml6team/connexion?branch=master
    :alt: Coveralls status
