@@ -1,3 +1,7 @@
+"""
+This module defines a Connexion specific options class to pass to the Connexion App or API.
+"""
+
 import logging
 import pathlib
 from typing import Optional  # NOQA
@@ -17,6 +21,7 @@ logger = logging.getLogger("connexion.options")
 
 
 class ConnexionOptions(object):
+    """Class holding connexion specific options."""
 
     def __init__(self, options=None, oas_version=(2,)):
         self._options = {}

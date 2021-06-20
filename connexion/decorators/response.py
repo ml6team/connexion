@@ -1,4 +1,7 @@
-# Decorators to change the return type of endpoints
+"""
+This module defines an view function decorator to validate its responses.
+"""
+
 import functools
 import logging
 

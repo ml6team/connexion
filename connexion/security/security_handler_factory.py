@@ -1,3 +1,8 @@
+"""
+This module defines an abstract SecurityHandlerFactory which supports the creation of security
+handlers for operations.
+"""
+
 import abc
 import base64
 import functools
@@ -46,8 +51,6 @@ class AbstractSecurityHandlerFactory(abc.ABC):
     def get_tokeninfo_func(self, security_definition):
         """
         :type security_definition: dict
-        :param get_token_info_remote_func Function executed to download token info from x-tokenInfoUrl
-        :rtype: function
 
         >>> get_tokeninfo_url({'x-tokenInfoFunc': 'foo.bar'})
         '<function foo.bar>'

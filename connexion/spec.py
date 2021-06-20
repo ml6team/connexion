@@ -1,3 +1,7 @@
+"""
+This module defines Python interfaces for OpenAPI specifications.
+"""
+
 import abc
 import copy
 import pathlib
@@ -31,6 +35,7 @@ def canonical_base_path(base_path):
 
 
 class Specification(collections_abc.Mapping):
+    """Base Python interface for an OpenAPI specification."""
 
     def __init__(self, raw_spec):
         self._raw_spec = copy.deepcopy(raw_spec)
@@ -160,6 +165,8 @@ class Specification(collections_abc.Mapping):
 
 
 class Swagger2Specification(Specification):
+    """Python interface for a Swagger 2 specification."""
+
     yaml_name = 'swagger.yaml'
     operation_cls = Swagger2Operation
 
@@ -215,6 +222,8 @@ class Swagger2Specification(Specification):
 
 
 class OpenAPISpecification(Specification):
+    """Python interface for an OpenAPI 3 specification."""
+
     yaml_name = 'openapi.yaml'
     operation_cls = OpenAPIOperation
 

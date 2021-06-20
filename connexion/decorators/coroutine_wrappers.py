@@ -1,3 +1,7 @@
+"""
+This module defines view function decorators specifically for coroutine operations.
+"""
+
 import asyncio
 import functools
 

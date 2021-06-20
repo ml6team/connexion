@@ -1,3 +1,7 @@
+"""
+This module defines a decorator to convert request parameters to arguments for the view function.
+"""
+
 import functools
 import inspect
 import logging

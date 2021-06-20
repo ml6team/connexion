@@ -1,3 +1,7 @@
+"""
+Module containing all code related to json schema validation.
+"""
+
 from copy import deepcopy
 
 from jsonschema import Draft4Validator, RefResolver, _utils
