@@ -1,9 +1,11 @@
-.. ATTENTION::
+   \:warning: |nbspc| ATTENTION
+
    This fork has been archived as we are now helping maintain the upstream_ and all changes have
    been merged there. For more info see `zalando\/connexion\#1365`_.
 
 .. _upstream: https://github.com/zalando/connexion
 .. _zalando/connexion#1365: https://github.com/zalando/connexion/issues/1365
+.. |nbspc| unicode:: U+00A0 .. non-breaking space
 
 
 Connexion
